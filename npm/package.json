@@ -4,7 +4,7 @@
   "description": "Installer for the cli-with-claude-skill Claude Code skill — discipline rules and reference templates for CLI tools that embed and install their own Claude Code skill",
   "type": "module",
   "bin": {
-    "cli-with-claude-skill": "./bin/cli.js"
+    "cli-with-claude-skill": "bin/cli.js"
   },
   "files": [
     "bin",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoveychen/claude-skills.git",
+    "url": "git+https://github.com/hoveychen/claude-skills.git",
     "directory": "npm"
   },
   "homepage": "https://github.com/hoveychen/claude-skills",
