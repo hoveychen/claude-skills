@@ -1,0 +1,38 @@
+{
+  "name": "@hoveychen/cli-with-claude-skill",
+  "version": "0.1.0",
+  "description": "Installer for the cli-with-claude-skill Claude Code skill — discipline rules and reference templates for CLI tools that embed and install their own Claude Code skill",
+  "type": "module",
+  "bin": {
+    "cli-with-claude-skill": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skill",
+    "README.md"
+  ],
+  "scripts": {
+    "sync-skill": "node scripts/sync-skill.js",
+    "prepublishOnly": "node scripts/sync-skill.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoveychen/claude-skills.git",
+    "directory": "npm"
+  },
+  "homepage": "https://github.com/hoveychen/claude-skills",
+  "license": "MIT",
+  "author": "Yuheng <yuheng@insnap.ai>",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "cli",
+    "scaffolding"
+  ]
+}
