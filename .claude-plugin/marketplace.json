@@ -1,0 +1,18 @@
+{
+  "name": "hoveychen-claude-skills",
+  "owner": {
+    "name": "Yuheng",
+    "email": "yuheng@insnap.ai"
+  },
+  "metadata": {
+    "description": "Yuheng's Claude Code skills",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "cli-with-claude-skill",
+      "source": "./cli-with-claude-skill",
+      "description": "Discipline rules and Go/Rust/Node/Python reference templates for CLI tools that embed and install their own Claude Code skill"
+    }
+  ]
+}

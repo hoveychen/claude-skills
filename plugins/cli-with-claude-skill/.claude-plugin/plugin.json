@@ -1,0 +1,20 @@
+{
+  "name": "cli-with-claude-skill",
+  "version": "0.1.0",
+  "description": "Discipline rules and Go/Rust/Node/Python reference templates for CLI tools that embed and install their own Claude Code skill",
+  "author": {
+    "name": "Yuheng",
+    "email": "yuheng@insnap.ai"
+  },
+  "repository": "https://github.com/hoveychen/claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "skill",
+    "cobra",
+    "clap",
+    "click",
+    "commander",
+    "scaffolding"
+  ]
+}
