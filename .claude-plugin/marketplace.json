@@ -13,6 +13,11 @@
       "name": "cli-with-claude-skill",
       "source": "./cli-with-claude-skill",
       "description": "Discipline rules and Go/Rust/Node/Python reference templates for CLI tools that embed and install their own Claude Code skill"
+    },
+    {
+      "name": "anthropic-launch-video",
+      "source": "./anthropic-launch-video",
+      "description": "Playbook for producing Anthropic-style product launch / intro videos in Remotion (cream + coral + Fraunces serif + JetBrains Mono terminal aesthetic), with iron-rule discipline for Player vs mp4, layer validation, reference-first frame extraction, and ffmpeg self-check"
     }
   ]
 }

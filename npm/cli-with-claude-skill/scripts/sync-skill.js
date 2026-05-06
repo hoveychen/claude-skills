@@ -1,8 +1,8 @@
-// Syncs the canonical plugin's skill content into npm/skill/ so it can be
+// Syncs the canonical plugin's skill content into ./skill/ so it can be
 // bundled when this package is published.
 //
-// Canonical source: ../plugins/cli-with-claude-skill/skills/cli-with-claude-skill/
-// Synced copy:      ../skill/
+// Canonical source: <repo>/plugins/cli-with-claude-skill/skills/cli-with-claude-skill/
+// Synced copy:      <repo>/npm/cli-with-claude-skill/skill/
 
 import * as fs from "node:fs";
 import * as path from "node:path";
@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SRC = path.resolve(
   __dirname,
+  "..",
   "..",
   "..",
   "plugins",

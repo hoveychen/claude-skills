@@ -1,0 +1,19 @@
+{
+  "name": "anthropic-launch-video",
+  "version": "0.3.0",
+  "description": "Playbook for producing Anthropic-style product launch / intro videos in Remotion (cream + coral + Fraunces serif + JetBrains Mono terminal aesthetic), with iron-rule discipline for Player vs mp4, layer validation, reference-first frame extraction, and ffmpeg self-check",
+  "author": {
+    "name": "Yuheng",
+    "email": "yuheng@insnap.ai"
+  },
+  "repository": "https://github.com/hoveychen/claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "remotion",
+    "video",
+    "anthropic",
+    "launch-video",
+    "claude-code",
+    "animation"
+  ]
+}

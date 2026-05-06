@@ -1,10 +1,10 @@
 {
-  "name": "@hoveychen/cli-with-claude-skill",
-  "version": "0.1.0",
-  "description": "Installer for the cli-with-claude-skill Claude Code skill — discipline rules and reference templates for CLI tools that embed and install their own Claude Code skill",
+  "name": "@hoveychen/anthropic-launch-video",
+  "version": "0.3.0",
+  "description": "Installer for the anthropic-launch-video Claude Code skill — playbook for producing Anthropic-style product launch / intro videos in Remotion (cream + coral + Fraunces serif + JetBrains Mono terminal aesthetic)",
   "type": "module",
   "bin": {
-    "cli-with-claude-skill": "bin/cli.js"
+    "anthropic-launch-video": "bin/cli.js"
   },
   "files": [
     "bin",
@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoveychen/claude-skills.git",
-    "directory": "npm"
+    "directory": "npm/anthropic-launch-video"
   },
   "homepage": "https://github.com/hoveychen/claude-skills",
   "license": "MIT",
@@ -32,7 +32,10 @@
   "keywords": [
     "claude-code",
     "claude-skill",
-    "cli",
-    "scaffolding"
+    "remotion",
+    "video",
+    "anthropic",
+    "launch-video",
+    "animation"
   ]
 }
